@@ -1,0 +1,19 @@
+{
+  "name": "live-text-demo",
+  "version": "1.0.0",
+  "description": "a simple demo showing how you can make a live typing system using sockets.io",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "socket.io"
+  ],
+  "author": "Cameron Steele",
+  "license": "MIT"
+}
