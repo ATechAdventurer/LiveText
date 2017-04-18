@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="height: 100vh; width: 100vw;">
+    <!--<input disabled style="font-size: 40pt; height: 70vh; width: 100vw; border:none;">-->
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+var socket = io();
+socket.on('typed',function(data){
+    $('div').html(data);
+});
+</script>
+</body>
+</html>
